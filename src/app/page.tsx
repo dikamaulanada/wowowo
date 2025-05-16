@@ -126,12 +126,12 @@ export default function HomePage() {
   return (
     <div className="min-h-screen relative bg-black">
       <div className="relative z-10">
-        <div className="container mx-auto px-3 py-6">
+        <div className="container mx-auto px-3 pt-0 pb-0">
           {/* Judul global */}
 
           {/* ...existing content dari renderContent... */}
-          <div className="mb-6">
-            <div className="p-2 md:p-6 rounded-xl transition-all duration-300 border border-gray-800/30 bg-zinc-950/80">
+          <div className="mb-6 mt-0">
+            <div className="p-2 md:p-6 rounded-xl transition-all duration-300 relative overflow-visible" style={{marginTop: '-35px', background: 'transparent'}}>
               <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
                 <div className="w-full order-1 mb-3 md:mb-0 md:order-1 md:w-1/2 flex flex-col justify-center">
                   <h1 className="hidden md:block text-xl md:text-5xl font-bold text-white leading-tight">
