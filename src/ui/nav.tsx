@@ -60,16 +60,10 @@ const Nav = () => {
                 <IoIosArrowDropleftCircle className="text-2xl" />
               </Link>
             )}
-            <div className="flex items-center space-x-2">
-              <Image
-                src="/ac.png"
-                alt="Akademi Crypto Logo"
-                width={40}
-                height={40}
-                className="text-white"
-              />
-              
-            </div>
+          </div>
+          
+          <div className="flex-1 flex justify-start items-center">
+            <h2 className="text-white text-xl md:text-4xl font-bold tracking-wide uppercase text-left">NEW & FORYOU</h2>
           </div>
           
           {/* Desktop Navigation */}
@@ -119,7 +113,7 @@ const Nav = () => {
                       </Link>
                       <button
                         onClick={() => signOut()}
-                        className="block w-full text-left px-4 py-2 text-gray-200 hover:text-purple-600 flex items-center space-x-2"
+                        className="flex w-full text-left px-4 py-2 text-gray-200 hover:text-purple-600 items-center space-x-2"
                       >
                         <BiLogOut className="text-xl" />
                         <span>Sign Out</span>
@@ -179,14 +173,14 @@ const Nav = () => {
                   <Link
                     href="/profile"
                     onClick={handleLinkClick}
-                    className="block px-3 py-2 text-gray-200 hover:text-purple-600 flex items-center space-x-2"
+                    className="flex px-3 py-2 text-gray-200 hover:text-purple-600 items-center space-x-2"
                   >
                     <BiUser className="text-xl" />
                     <span>Profile</span>
                   </Link>
                   <button
                     onClick={() => signOut()}
-                    className="block w-full text-left px-3 py-2 text-gray-200 hover:text-purple-600 flex items-center space-x-2"
+                    className="flex w-full text-left px-3 py-2 text-gray-200 hover:text-purple-600 items-center space-x-2"
                   >
                     <BiLogOut className="text-xl" />
                     <span>Sign Out</span>
@@ -208,7 +202,7 @@ const Nav = () => {
               <Link 
                 href="/" 
                 onClick={handleLinkClick}
-                className="text-gray-200 hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium flex items-center space-x-2"
+                className="flex px-3 py-2 text-gray-200 hover:text-purple-600 rounded-md text-base font-medium items-center space-x-2"
               >
                 <AiOutlineHome className="text-xl" />
                 <span>Home</span>
@@ -216,7 +210,7 @@ const Nav = () => {
               <Link 
                 href="/about" 
                 onClick={handleLinkClick}
-                className="text-gray-200 hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium flex items-center space-x-2"
+                className="flex px-3 py-2 text-gray-200 hover:text-purple-600 rounded-md text-base font-medium items-center space-x-2"
               >
                 <BiInfoCircle className="text-xl" />
                 <span>About</span>

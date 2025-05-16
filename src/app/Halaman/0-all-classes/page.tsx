@@ -14,10 +14,10 @@ export default function AllClassesPage() {
 
   // Gabungkan semua data modul
   const allClasses = [
+    ...liveclassData,
     ...tradingData,
     ...investingData,
     ...blockchainData,
-    ...liveclassData,
   ];
 
   function handleImageError(title: string): void {

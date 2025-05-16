@@ -128,7 +128,7 @@ export default function HomePage() {
       <div className="relative z-10">
         <div className="container mx-auto px-3 py-6">
           {/* Judul global */}
-          <h1 className="text-white text-xl md:text-4xl font-bold mb-6 tracking-wide uppercase text-left">NEW &amp; FORYOU</h1>
+
           {/* ...existing content dari renderContent... */}
           <div className="mb-6">
             <div className="p-2 md:p-6 rounded-xl transition-all duration-300 border border-gray-800/30 bg-zinc-950/80">
