@@ -20,7 +20,7 @@ const komunitasData: GridItem[] = [
     price: "Free",
     discountPrice: "",
     buttons: [
-      { name: "Get Trial", link: "#" },
+      { name: "Get Trial", link: "https://lynk.id/acforall" },
     ],
   },
   {
@@ -30,7 +30,7 @@ const komunitasData: GridItem[] = [
     price: "Rp 699.000",
     discountPrice: "Rp 425.000",
     buttons: [
-      { name: "BUY NOW!", link: "#" },
+      { name: "BUY NOW!", link: "https://lynk.id/acforall" },
     ],
   },
  
@@ -41,7 +41,7 @@ const komunitasData: GridItem[] = [
     price: "Rp 260.000",
     discountPrice: "Rp 130.000",
     buttons: [
-      { name: "BUY NOW!", link: "#" },
+      { name: "BUY NOW!", link: "https://lynk.id/acforall" },
     ],
   },
 
@@ -52,7 +52,7 @@ const komunitasData: GridItem[] = [
     price: "Rp 170.000",
     discountPrice: "Rp 85.000",
     buttons: [
-      { name: "BUY NOW!", link: "#" },
+      { name: "BUY NOW!", link: "https://lynk.id/acforall" },
     ],
   },
 
@@ -63,7 +63,7 @@ const komunitasData: GridItem[] = [
     price: "Rp 120.000",
     discountPrice: "Rp 60.000",
     buttons: [
-      { name: "BUY NOW!", link: "#" },
+      { name: "BUY NOW!", link: "https://lynk.id/acforall" },
     ],
   },
 ];
