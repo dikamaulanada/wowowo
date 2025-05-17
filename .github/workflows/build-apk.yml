@@ -8,12 +8,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       # Ambil kode dari GitHub
       - uses: actions/checkout@v3
 
-      # Pasang NodeJS, karena kamu pakai npm
+      # Pasang NodeJS (karena pakai npm)
       - uses: actions/setup-node@v3
         with:
           node-version: 16
@@ -22,25 +24,26 @@ jobs:
       - run: npm install
       - run: npm run build
 
-      # Setup Java untuk build Android
+      # Setup Java (wajib buat build Android)
       - uses: actions/setup-java@v3
         with:
           distribution: temurin
           java-version: 11
 
-      # Setup Android SDK dan build tools
+      # Setup Android SDK
       - uses: android-actions/setup-android@v2
         with:
           api-level: 33
           build-tools: 33.0.0
 
-      # Build APK dengan Gradle di folder android
-      - run: ./gradlew assembleDebug
+      # Build APK dengan Gradle
+      - name: Build APK
+        run: ./gradlew assembleDebug
         working-directory: android
 
-      # Upload APK hasil build ke GitHub agar bisa di-download
+      # Upload APK hasil build ke GitHub Artifact (gunakan SHA langsung)
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@779d1f2e7e3c6c9685b2405c6a123ee6eaf40f0f
         with:
-         name: app-debug-apk
-         path: android/app/build/outputs/apk/debug/app-debug.apk
+          name: app-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
