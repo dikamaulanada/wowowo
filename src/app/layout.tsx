@@ -12,6 +12,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Akademi Crypto App",
   description: "Learn about crypto trading",
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 export default function RootLayout({

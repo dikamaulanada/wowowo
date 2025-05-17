@@ -16,7 +16,7 @@ const getGoogleDriveEmbedUrl = (url: string) => {
 };
 
 type PageProps = {
-  searchParams: { id?: string; next?: string };
+  searchParams: { id?: string; next?: string; thumbnail?: string };
 }
 
 export default function Container({ searchParams }: PageProps) {
@@ -29,6 +29,7 @@ export default function Container({ searchParams }: PageProps) {
   const router = useRouter();
 
   const videoData = Data.find((item) => item.id === videoId);
+  const thumbnail = searchParams.thumbnail;
 
   useEffect(() => {
     const checkAccess = async () => {
@@ -103,7 +104,9 @@ export default function Container({ searchParams }: PageProps) {
                 className={`absolute top-0 right-0 w-16 h-16 bg-transparent z-10 transition-opacity duration-1000 ${hideOverlay ? "opacity-0" : "opacity-100"}`}
                 onClick={handleOverlayClick}
               />
-              {videoData?.drive && (
+              {thumbnail ? (
+                <img src={thumbnail} alt="Thumbnail" className="w-full h-full object-cover" />
+              ) : videoData?.drive && (
                 <iframe
                   src={getGoogleDriveEmbedUrl(videoData.drive)}
                   width="100%"
