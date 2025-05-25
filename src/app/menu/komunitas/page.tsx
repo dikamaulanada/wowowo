@@ -20,7 +20,7 @@ const komunitasData: GridItem[] = [
     price: "Free",
     discountPrice: "",
     buttons: [
-      { name: "Get Trial", link: "https://lynk.id/acforall" },
+      { name: "Get Trial", link: "https://discord.gg/e33N6Xap74" },
     ],
   },
   {
