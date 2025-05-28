@@ -47,10 +47,13 @@ export const investingData = [
     link: "/Halaman/page/2-crypto-investing/8-Identifying-Scam-Tricks-Security-Tips",
     category: "investing",
   },
+<<<<<<< HEAD
   {
     title: "Identifying Scam Tricks & Security Tips",
     image: "/images/Identifying-Scam-Tricks-&-Security-Tips.jpg",
     link: "/Halaman/page/2-crypto-investing/9-w",
     category: "investing",
   },
+=======
+>>>>>>> f62e2b0591c9daf073cb4d529475cd9444477147
 ];
