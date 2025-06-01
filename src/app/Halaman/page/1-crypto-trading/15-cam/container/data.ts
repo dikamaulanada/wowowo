@@ -2,14 +2,14 @@ export const Data = [
     {
       "id": "1",
       "title": "Bagaimana Cara Masuk Di Pasar",
-      "drive": "https://drive.google.com/file/d/1Iwfi5MNnqCiLHgFWwTlkFu7V3A0_uK0o/view?usp=drive_link",
+      "drive": "https://drive.google.com/file/d/1IwYGY7yuDoIfhpI5_a0s_mKViBpAlz4l/view?usp=drive_link",
       "link": "/Halaman/page/1-crypto-trading/15-cam/01-Bagaimana-Cara-Masuk-Pasar",
       "category": "Crypto Trading"
     },
     {
       "id": "2",
       "title": "Memanfaatkan Rasa Takut Dan Keserakahan",
-      "drive": "https://drive.google.com/file/d/1IwYGY7yuDoIfhpI5_a0s_mKViBpAlz4l/view?usp=drive_link",
+      "drive": "https://drive.google.com/file/d/1Iwfi5MNnqCiLHgFWwTlkFu7V3A0_uK0o/view?usp=drive_link",
       "link": "/Halaman/page/1-crypto-trading/15-cam/02-Memanfaatkan-Rasa-Takut-Dan-Keserakahan",
       "category": "Crypto Trading"
     },
