@@ -5,6 +5,31 @@ export const tradingData = [
     link: "/Halaman/page/1-crypto-trading/15-cam",
     category: "trading",
   },
+    {
+    title: "Fundamental Research",
+    image: "/images/fundr.jpg", 
+    link: "/Halaman/page/1-crypto-trading/16-Fundamental-Research",
+    category: "trading",
+  },
+    {
+    title: "Mind Management",
+    image: "/images/minm.jpg", 
+    link: "/Halaman/page/1-crypto-trading/17-Mind-Management",
+    category: "trading",
+  },
+    {
+    title: "Money Management",
+    image: "/images/monm.jpg", 
+    link: "/Halaman/page/1-crypto-trading/18-Money-Managment",
+    category: "trading",
+  },
+    {
+    title: "Technical Research",
+    image: "/images/tecr.jpg", 
+    link: "/Halaman/page/1-crypto-trading/19-Technical-Research",
+    category: "trading",
+  },
+
   {
     title: "Crypto Spot Trading",
     image: "/images/crypto-trading.jpg", 

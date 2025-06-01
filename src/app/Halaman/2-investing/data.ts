@@ -1,5 +1,17 @@
 export const investingData = [
   {
+    title: "Crypto Melakukan Portofolio Manajement",
+    image: "/images/cpm.jpg",
+    link: "/Halaman/page/2-crypto-investing/9-cpm",
+    category: "investing",
+  },
+    {
+    title: "Identifying Scam Tricks & Security Tips",
+    image: "/images/Identifying-Scam-Tricks-&-Security-Tips.jpg",
+    link: "/Halaman/page/2-crypto-investing/8-Identifying-Scam-Tricks-Security-Tips",
+    category: "investing",
+  },
+  {
     title: "Crypto Investing",
     image: "/images/crypto-investing.jpg",
     link: "/Halaman/page/2-crypto-investing/1-Crypto-Investing",
@@ -39,12 +51,6 @@ export const investingData = [
     title: "Crypto Self Custody",
     image: "/images/crypto-self-custody.jpg",
     link: "/Halaman/page/2-crypto-investing/7-Crypto-Self-Custody",
-    category: "investing",
-  },
-  {
-    title: "Identifying Scam Tricks & Security Tips",
-    image: "/images/Identifying-Scam-Tricks-&-Security-Tips.jpg",
-    link: "/Halaman/page/2-crypto-investing/8-Identifying-Scam-Tricks-Security-Tips",
     category: "investing",
   },
 ];
