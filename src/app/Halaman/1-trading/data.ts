@@ -1,4 +1,10 @@
 export const tradingData = [
+    {
+    title: "Crypto Exit Strategy",
+    image: "/images/crypto-exit.jpeg", 
+    link: "/Halaman/page/1-crypto-trading/20-crypto-strategy",
+    category: "trading",
+  },
   {
     title: "Crypto Entry Mastery",
     image: "/images/cam.jpg", 
