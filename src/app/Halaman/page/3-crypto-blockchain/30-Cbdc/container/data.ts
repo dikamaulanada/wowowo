@@ -2,7 +2,7 @@ export const Data = [
   {
     id: "1",
     title: "Central Bank Digital Currency",
-    drive: "https://drive.google.com/file/d/18ayyozkIuvEJKsZN2La_bnYfIpNY2bik/view?usp=drive_link",
+    drive: "https://drive.google.com/file/d/1yfZNuAZUXSr6T5Yq-Hpqwc6jQnvueurQ",
     link: "/Halaman/page/3-crypto-blockchain/30-Cbdc/1-Cbdc",
     category: "Crypto Blockchain",
   }
