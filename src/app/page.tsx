@@ -6,6 +6,7 @@ import { AccessButton } from '@/components/buttons/AccessButton';
 import BlockchainPage from './Halaman/3-blockchain/page';
 import InvestingPage from './Halaman/2-investing/page';
 import LiveclassPage from './Halaman/4-liveclass/page';
+import TernakUangPage from './Halaman/5-ternak-uang/page';
 // import MargincallPage from './Halaman/5-margincall/page';
 // import SoonPage from './Halaman/7-soon/page';
 import TradingPage from './Halaman/1-trading/page';
@@ -184,6 +185,9 @@ export default function HomePage() {
           </div>
           <div className="mt-2 md:mt-8">
             <LiveclassPage />
+          </div>
+          <div className="mt-2 md:mt-8">
+            <TernakUangPage />
           </div>
         </div>
       </div>

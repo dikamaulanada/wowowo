@@ -6,6 +6,7 @@ import { tradingData } from '../1-trading/data';
 import { investingData } from '../2-investing/data';
 import { blockchainData } from '../3-blockchain/data';
 import { liveclassData } from '../4-liveclass/data';
+import { ternakuangData } from '../5-ternak-uang/data';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 
 export default function AllClassesPage() {
@@ -18,6 +19,7 @@ export default function AllClassesPage() {
     ...tradingData,
     ...investingData,
     ...blockchainData,
+    ...ternakuangData,
   ];
 
   function handleImageError(title: string): void {

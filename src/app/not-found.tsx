@@ -20,7 +20,7 @@ export default function NotFound() {
       >
         Kembali ke Beranda
       </Link>
-      <p className="text-sm text-gray-400 mt-8">© {new Date().getFullYear()} SC-APP-V2.8 All rights reserved.</p>
+      <p className="text-sm text-gray-400 mt-8">© {new Date().getFullYear()} AC FOR ALL-APP-V1.0 All rights reserved.</p>
     </div>
   );
 }
