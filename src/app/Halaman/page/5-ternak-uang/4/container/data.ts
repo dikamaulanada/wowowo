@@ -1,0 +1,58 @@
+export const Data = [
+  {
+    id: "1",
+    title: "Introduction",
+    drive: "https://drive.google.com/file/d/10RPNZZGOFxKuaN-tYt5eLkzjIE5od-_e",
+    link: "/Halaman/page/5-ternak-uang/4/1",
+    category: "Stock and Finance",
+  },
+  {
+    id: "2",
+    title: "Analisa Fundamental Perusahaan",
+    drive: "https://drive.google.com/file/d/1c_rlALjHxZqxUyzddEKJLeVFB-683uh6",
+    link: "/Halaman/page/5-ternak-uang/4/2",
+    category: "Stock and Finance",
+  },
+  {
+    id: "3",
+    title: "Analisa Fundamental",
+    drive: "https://drive.google.com/file/d/1PH2CEbue8n_BZ0_Eo2-1NPDb3UCQ4eit",
+    link: "/Halaman/page/5-ternak-uang/4/3",
+    category: "Stock and Finance",
+  },
+  {
+    id: "4",
+    title: "Komponen Analisa Fundamental",
+    drive: "https://drive.google.com/file/d/1rxhkNAOgnHVfS_xgzFtJzN6yWXMUCc8o",
+    link: "/Halaman/page/5-ternak-uang/4/4",
+    category: "Stock and Finance",
+  },
+  {
+    id: "5",
+    title: "Komponen 1 Ekonomi",
+    drive: "https://drive.google.com/file/d/1WnMmC2n0yEjxpurX24oYO8SWF2lJZWer",
+    link: "/Halaman/page/5-ternak-uang/4/5",
+    category: "Stock and Finance",
+  },
+  {
+    id: "6",
+    title: "Komponen 2 Industri",
+    drive: "https://drive.google.com/file/d/14Pgy3z-vbhm9xNp1ChM4dhi_099hmZc7",
+    link: "/Halaman/page/5-ternak-uang/4/6",
+    category: "Stock and Finance",
+  },
+  {
+    id: "7",
+    title: "Komponen 3 Company",
+    drive: "https://drive.google.com/file/d/1io1Q40Xm3RKVBKlyVxSchkLlHWTIvzTN",
+    link: "/Halaman/page/5-ternak-uang/4/7",
+    category: "Stock and Finance",
+  },
+  {
+    id: "8",
+    title: "Summary",
+    drive: "https://drive.google.com/file/d/1EkVE5bPQCf08fZmI7FJ-faHprnesA28t",
+    link: "/Halaman/page/5-ternak-uang/4/8",
+    category: "Stock and Finance",
+  },
+];
