@@ -1,6 +1,6 @@
 "use client";
 import { useSession } from "next-auth/react";
-import { Data } from "./data";
+import { data } from "./data"; // ✅ sudah diperbaiki huruf kecil
 
 import PlayList from "../page";
 import Loading from '@/ui/loading';
@@ -28,7 +28,7 @@ export default function Container({ searchParams }: PageProps) {
   const [hideOverlay, setHideOverlay] = useState(false); 
   const router = useRouter();
 
-  const videoData = Data.find((item) => item.id === videoId);
+  const videoData = data.find((item) => item.id === videoId); // ✅ pakai huruf kecil
 
   useEffect(() => {
     const checkAccess = async () => {
