@@ -1,4 +1,40 @@
 export const blockchainData = [
+  {
+    title: "Blockchain & Ai",
+    image: "/images/b&ai.jpg",
+    link: "/Halaman/page/3-crypto-blockchain/31-B&ai",
+    category: "blockchain"
+  },
+  {
+    title: "Real World Assets", 
+    image: "/images/real-world-assets.jpg",  
+    link: "/Halaman/page/3-crypto-blockchain/27-Real-World-Assets",
+    category: "blockchain"
+  },
+  { 
+    title: "Fan Token", 
+    image: "/images/fan-token.jpg",  
+    link: "/Halaman/page/3-crypto-blockchain/32-fan-token",
+    category: "blockchain"
+  },
+  { 
+    title: "Ethereum Nmae Service", 
+    image: "/images/eth-name.jpg",  
+    link: "/Halaman/page/3-crypto-blockchain/28-Eth-Name",
+    category: "blockchain"
+  },
+  {
+    title: "Dezentralized Phsysical Infrastrukture Network",
+    image: "/images/dpin.jpg",
+    link: "/Halaman/page/3-crypto-blockchain/29-Dpin",
+    category: "blockchain"
+  },
+  {
+    title: "Central Bank Digital Currency",
+    image: "/images/cbdc.jpg",
+    link: "/Halaman/page/3-crypto-blockchain/30-Cbdc",
+    category: "blockchain"
+  },
   { 
     title: "Smart Contract Development", 
     image: "/images/smart-contract-development.jpg",
@@ -155,34 +191,4 @@ export const blockchainData = [
     link: "/Halaman/page/3-crypto-blockchain/26-Stablecoins",
     category: "blockchain"
   },
-  { 
-    title: "Real World Assets", 
-    image: "/images/real-world-assets.jpg",  
-    link: "/Halaman/page/3-crypto-blockchain/27-Real-World-Assets",
-    category: "blockchain"
-  },
-  { 
-    title: "Ethereum Nmae Service", 
-    image: "/images/eth-name.jpg",  
-    link: "/Halaman/page/3-crypto-blockchain/28-Eth-Name",
-    category: "blockchain"
-  },
-  {
-    title: "Dezentralized Phsysical Infrastrukture Network",
-    image: "/images/dpin.jpg",
-    link: "/Halaman/page/3-crypto-blockchain/29-Dpin",
-    category: "blockchain"
-  },
-  {
-    title: "Central Bank Digital Currency",
-    image: "/images/cbdc.jpg",
-    link: "/Halaman/page/3-crypto-blockchain/30-Cbdc",
-    category: "blockchain"
-  },
-  {
-    title: "Blockchain & Ai",
-    image: "/images/b&ai.jpg",
-    link: "/Halaman/page/3-crypto-blockchain/31-B&ai",
-    category: "blockchain"
-  }
 ];
