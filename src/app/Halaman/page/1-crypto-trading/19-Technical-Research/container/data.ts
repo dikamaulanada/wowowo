@@ -2,36 +2,36 @@ export const Data = [
     {
       "id": "1",
       "title": "Cara Melakukan Analisis Trend",
-      "drive": "https://drive.google.com/file/d/1HuWxEab5DUFw_GdGVbLU4LrRycCkzoUF/view?usp=drive_link",
+      "drive": "https://drive.google.com/file/d/1buPKLlsfjXsqzJI40GkOwaks7L0LqaUL",
       "link": "/Halaman/page/1-crypto-trading/19-Technical-Research/1",
-      "category": "Crypto Trading"
+      "category": "Technical Research"
     },
     {
       "id": "2",
       "title": "Cara Melakukan Analisis Area",
-      "drive": "https://drive.google.com/file/d/1ILS7S8f8QkwrKhnE2GWML8oQnHhfr4zP/view?usp=drive_link",
+      "drive": "https://drive.google.com/file/d/14EpPeAKgGRq8JPwlfzGZ0Vh3nLJS3QgJ",
       "link": "/Halaman/page/1-crypto-trading/19-Technical-Research/2",
-      "category": "Crypto Trading"
+      "category": "Technical Research"
     },
     {
       "id": "3",
       "title": "Cara Melakukan Analisis Pola",
-      "drive": "https://drive.google.com/file/d/1IabQ_0lVdPZWPrkzNdhVnODVacKJzD-i/view?usp=drive_link",
+      "drive": "https://drive.google.com/file/d/185_b5n6V52asBtnqAa_VLabOSdkCGHzX",
       "link": "/Halaman/page/1-crypto-trading/19-Technical-Research/3",
-      "category": "Crypto Trading"
+      "category": "Technical Research"
     },
     {
       "id": "4",
       "title": "Cara Melakukan Analisis Pemicu",
-      "drive": "https://drive.google.com/file/d/1IeBtlUO9JioXvMb10EBKYaWDs_Df5Wex/view?usp=drive_link",
+      "drive": "https://drive.google.com/file/d/1khbx1D52gYSHvbEXP_FqR0atCcM70zPV",
       "link": "/Halaman/page/1-crypto-trading/19-Technical-Research/4",
-      "category": "Crypto Trading"
+      "category": "Technical Research"
     },
     {
       "id": "5",
       "title": "Cara Melakukan Entry Analysis",
-      "drive": "https://drive.google.com/file/d/1JLFs6xgbgPVZO9cRSVZ6h7C3RIbZmAYT/view?usp=drive_link",
+      "drive": "https://drive.google.com/file/d/1_j9t1xf2X8Ac1Qx8E-nV-cxQSUZrcVcE",
       "link": "/Halaman/page/1-crypto-trading/19-Technical-Research/5",
-      "category": "Crypto Trading"
+      "category": "Technical Research"
     }
 ]

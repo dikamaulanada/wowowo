@@ -25,7 +25,7 @@ export const blockchainData = [
   },
   { 
     title: "Crypto Self Custody", 
-    image: "/images/crypto-self-custody.jpg",  
+    image: "/images/555.jpg",  
     link: "/Halaman/page/3-crypto-blockchain/5-Crypto-Self-Custody",
     category: "blockchain"
   },
