@@ -63,7 +63,7 @@ const Nav = () => {
           </div>
           
           <div className="flex-1 flex justify-start items-center">
-            <h2 className="text-white text-xl md:text-4xl font-bold tracking-wide uppercase text-left">New & Foryou</h2>
+          <h2 className="text-white text-xl md:text-4xl font-bold tracking-wide text-left">New & Foryou</h2>
           </div>
           
           {/* Desktop Navigation */}
