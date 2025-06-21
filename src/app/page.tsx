@@ -139,11 +139,11 @@ export default function HomePage() {
                     The Art of <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">Crypto Trading</span>
                   </h1>
                   <div className="hidden md:flex gap-2 mt-3">
-                    <a href={links.startLearning} className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-base font-semibold rounded-lg hover:opacity-90 transition-all duration-300">
+                    <a href={links.startLearning} className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-white to-white text-black text-base font-semibold rounded-lg hover:opacity-90 transition-all duration-300">
                       <FaPlay />
                       Tonton
                     </a>
-                    <a href={links.moreInfo} className="flex items-center justify-center px-4 py-2 border border-purple-500/30 text-purple-400 text-base font-medium rounded-lg hover:bg-purple-500/10 transition-all duration-300">
+                    <a href={links.moreInfo} className="flex items-center justify-center px-4 py-2 border-gray-700 text-white text-base font-medium rounded-lg hover:bg-purple-500/10 transition-all duration-300">
                       Selengkapnya
                     </a>
                   </div>
@@ -159,11 +159,11 @@ export default function HomePage() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-xl" />
                   </div>
                   <div className="grid grid-cols-2 md:hidden gap-2 w-full">
-                    <a href={links.startLearning} className="flex items-center justify-center gap-2 px-3 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-sm font-semibold rounded-lg">
+                    <a href={links.startLearning} className="flex items-center justify-center gap-2 px-3 py-2 bg-gradient-to-r from-white to-white text-black text-sm font-semibold rounded-lg">
                       <FaPlay className="text-xs" />
                       Tonton
                     </a>
-                    <a href={links.moreInfo} className="flex items-center justify-center px-3 py-2 border border-purple-500/30 text-purple-400 text-sm font-medium rounded-lg">
+                    <a href={links.moreInfo} className="flex items-center justify-center px-3 py-2 border border-gray-700 text-white text-sm font-medium rounded-lg">
                       Selengkapnya
                     </a>
                   </div>
