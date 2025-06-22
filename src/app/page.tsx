@@ -153,7 +153,7 @@ export default function HomePage() {
                     <img
                       src="/images/art-of-crypto-trading.jpg"
                       alt="The Art of Crypto Trading"
-                      className="w-full h-auto max-h-[480px]"
+                      className="w-full h-auto max-h-[480px] mt-0 md:mt-8"
                       style={{ display: 'block' }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-xl" />
