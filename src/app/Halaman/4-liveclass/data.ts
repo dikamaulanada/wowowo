@@ -41,24 +41,18 @@ export const liveclassData= [
     link: "/Halaman/page/4-liveclass/6-Mastering-Altcoins",
     category: "Webinar & Liveclass"
   },
-  // { 
-  //   title: "Masterclass Session 1 – Crypto Smart Money", 
-  //   image: "/images/mas1.jpg", 
-  //   link: "/Halaman/page/4-liveclass/7-Masterclass-Session-1-Crypto-Smart-Money",
-  //   category: "Webinar & Liveclass"
-  // },
-  // { 
-  //   title: "Masterclass Session 2 – Crypto Harmonic Trading", 
-  //   image: "/images/mas.jpg", 
-  //   link: "/Halaman/page/4-liveclass/8-Masterclass-Session-2-Crypto-Harmonic-Trading",
-  //   category: "Webinar & Liveclass"
-  // },
-  // { 
-  //   title: "Masterclass Session 3 – Crypto Order Flow", 
-  //   image: "/images/flow.jpg", 
-  //   link: "/Halaman/page/4-liveclass/9-Masterclass-Session-3-Crypto-Order-Flow",
-  //   category: "Webinar & Liveclass"
-  // },
+  { 
+     title: "Crypto Harmonic Trading", 
+    image: "/images/mas.jpg", 
+    link: "/Halaman/page/4-liveclass/8-Masterclass-Session-2-Crypto-Harmonic-Trading",
+     category: "Webinar & Liveclass"
+   },
+   { 
+   title: "Crypto Order Flow", 
+   image: "/images/flow.jpg", 
+   link: "/Halaman/page/4-liveclass/9-Masterclass-Session-3-Crypto-Order-Flow",
+     category: "Webinar & Liveclass"
+ },
   { 
     title: "Kuliah Crypto", 
     image: "/images/kuliah-crypto.jpg", 
