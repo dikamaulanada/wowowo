@@ -102,6 +102,12 @@ export const liveclassData= [
     category: "Webinar & Liveclass"
   },
   { 
+    title: "Margin Call Member", 
+    image: "/images/margin-call-6july.jpg", 
+    link: "/Halaman/page/4-liveclass/24-margin-call-member",
+    category: "Margin Call Member"
+  },
+  { 
     title: "Cara Mencari Altcoin yang Minimal Akan Naik 10X", 
     image: "/images/10x.jpg", 
     link: "/Halaman/page/4-liveclass/18-Cara-Mencari-Altcoin-yang-Minimal-Akan-Naik-10X",

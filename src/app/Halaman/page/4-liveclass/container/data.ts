@@ -131,5 +131,5 @@ export const Data = [
     drive: "https://drive.google.com/file/d/1ukXrKlvNH2QLrqihBzA-OfCF9TJ4oNG5/view?usp=drive_link",
     link: "/Halaman/page/4-liveclass/23-2025-Crypto-Regulation",
     category: "Webinar & Live Class",
-  }
+  },
 ];
