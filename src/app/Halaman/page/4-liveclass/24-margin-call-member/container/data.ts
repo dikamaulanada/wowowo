@@ -8,8 +8,8 @@ export const Data = [
   },
   {
     id: "2",
-    title: "Margin Call Member Agustus 2024",
-    drive: "https://drive.google.com/file/d/15duN6Q9Kge3cEaUUv7ejLCx437geoWev/view?usp=drive_link",
+    title: "Margin Call Member 6 July 2024",
+    drive: "https://drive.google.com/file/d/1JnKlIiYfVPEiKArS8huq_Od68PROuRt_/view?usp=drivesdk",
     link: "/Halaman/page/4-liveclass/24-margin-call-member/2",
     category: "Margin Call Member",
   }
